@@ -6,37 +6,12 @@
       <SubType>Designer</SubType>
     </ApplicationDefinition>
   </ItemGroup>
-  <ItemGroup>
-    <Compile Update="Views\HostView.xaml.cs">
-      <SubType>Code</SubType>
-    </Compile>
-    <Compile Update="Views\TestAView.xaml.cs">
-      <SubType>Code</SubType>
-    </Compile>
-    <Compile Update="Views\TestBView.xaml.cs">
-      <SubType>Code</SubType>
-    </Compile>
-    <Compile Update="Views\TestCView.xaml.cs">
-      <SubType>Code</SubType>
-    </Compile>
-  </ItemGroup>
+  <ItemGroup />
   <ItemGroup>
     <Page Update="Styles\TabablzControl.xaml">
       <SubType>Designer</SubType>
     </Page>
-    <Page Update="Views\HostView.xaml">
-      <SubType>Designer</SubType>
-    </Page>
     <Page Update="Views\MainView.xaml">
-      <SubType>Designer</SubType>
-    </Page>
-    <Page Update="Views\TestAView.xaml">
-      <SubType>Designer</SubType>
-    </Page>
-    <Page Update="Views\TestBView.xaml">
-      <SubType>Designer</SubType>
-    </Page>
-    <Page Update="Views\TestCView.xaml">
       <SubType>Designer</SubType>
     </Page>
   </ItemGroup>

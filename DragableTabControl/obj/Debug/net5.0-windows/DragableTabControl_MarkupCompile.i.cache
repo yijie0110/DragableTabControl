@@ -4,16 +4,16 @@
 winexe
 C#
 .cs
-E:\Code\test\DragableTabControl\DragableTabControl\DragableTabControl\obj\Debug\net6.0-windows\
+E:\Code\test\DragableTabControl\DragableTabControl\DragableTabControl\obj\Debug\net5.0-windows\
 DragableTabControl
 none
 false
-TRACE;DEBUG;NET;NET6_0;NETCOREAPP
+TRACE;DEBUG;NET;NET5_0;NETCOREAPP
 E:\Code\test\DragableTabControl\DragableTabControl\DragableTabControl\App.xaml
 6-104305203
 
-22-886794933
-201552212321
+22492565477
+200-2070230713
 Styles\TabablzControl.xaml;Views\HostView.xaml;Views\MainView.xaml;Views\TestAView.xaml;Views\TestBView.xaml;Views\TestCView.xaml;
 
 False
