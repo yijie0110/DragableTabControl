@@ -10,7 +10,7 @@
     Title="{Binding Title}"
     Width="525"
     Height="350"
-    prism:ViewModelLocator.AutoWireViewModel="True">
+    prism:ViewModelLocator.AutoWireViewModel="True" Loaded="Window_Loaded">
 
     <Window.Resources>
         <Style
@@ -29,8 +29,7 @@
                 </Setter.Value>
             </Setter>
         </Style>
-
-        <ext:BindingProxy x:Key="Proxy" Data="{Binding}" />
+        
     </Window.Resources>
     <Grid>
         <Grid.RowDefinitions>
@@ -40,16 +39,16 @@
         <StackPanel Orientation="Horizontal">
             <Button
                 Command="{Binding OpenCommand}"
-                CommandParameter="OneView"
-                Content="OneView" />
+                CommandParameter="TestAView"
+                Content="TestAView" />
             <Button
                 Command="{Binding OpenCommand}"
-                CommandParameter="TwoView"
-                Content="TwoView" />
+                CommandParameter="TestBView"
+                Content="TestBView" />
             <Button
                 Command="{Binding OpenCommand}"
-                CommandParameter="ThreeView"
-                Content="ThreeView" />
+                CommandParameter="TestCView"
+                Content="TestCView" />
         </StackPanel>
         <dragablz:TabablzControl
             x:Name="Tabs"
@@ -63,14 +62,14 @@
             </dragablz:TabablzControl.InterTabController>
 
             <dragablz:TabablzControl.HeaderItemTemplate>
-                <DataTemplate DataType="{x:Type vm:ViewModelBase}">
+                <DataTemplate DataType="{x:Type ext:TabClientProxy}">
                     <Grid>
 
                         <Grid.ContextMenu>
                             <ContextMenu>
                                 <MenuItem Command="{x:Static dragablz:TabablzControl.CloseItemCommand}" />
-                                <MenuItem Command="{x:Static dragablz:TabablzControl.CloseOtherItemsCommand}" />
-                                <MenuItem Command="{Binding Data.CloseAllCommand, Source={StaticResource Proxy}}" Header="Close all" />
+                                <!--<MenuItem Command="{x:Static dragablz:TabablzControl.CloseOtherItemsCommand}" />-->
+                                <!--<MenuItem Command="{Binding Data.CloseAllCommand, Source={StaticResource Proxy}}" Header="Close all" />-->
                             </ContextMenu>
                         </Grid.ContextMenu>
 
@@ -91,12 +90,17 @@
                             Grid.Column="1"
                             MaxWidth="200"
                             HorizontalAlignment="Stretch"
-                            Text="{Binding DataContext.ViewName}"
+                            Text="{Binding CommonData.ViewName}"
                             TextTrimming="CharacterEllipsis"
-                            ToolTip="{Binding DataContext.ViewName}" />
+                            ToolTip="{Binding CommonData.ViewName}" />
                     </Grid>
                 </DataTemplate>
             </dragablz:TabablzControl.HeaderItemTemplate>
+            <dragablz:TabablzControl.ContentTemplate>
+                <DataTemplate DataType="{x:Type ext:TabClientProxy}">
+                    <ContentPresenter Margin="4" Content="{Binding Content}" />
+                </DataTemplate>
+            </dragablz:TabablzControl.ContentTemplate>
         </dragablz:TabablzControl>
     </Grid>
 </Window>

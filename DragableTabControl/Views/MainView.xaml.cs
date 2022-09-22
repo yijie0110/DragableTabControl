@@ -1,4 +1,7 @@
-﻿using System.Windows;
+﻿using DragableTabControl.Extensions;
+using Prism.Events;
+using System;
+using System.Windows;
 
 namespace DragableTabControl.Views
 {
@@ -7,9 +10,29 @@ namespace DragableTabControl.Views
     /// </summary>
     public partial class MainView : Window
     {
+        private readonly IEventAggregator eventAggregator;
         public MainView()
         {
             InitializeComponent();
+        }
+        public MainView(IEventAggregator eventAggregator) : this()
+        {
+            this.eventAggregator = eventAggregator;
+        }
+
+        private void MainWindow_OnClosed(object sender, EventArgs e)
+        {
+            eventAggregator.GetEvent<DragablzWindowEvent>().Publish(new DragablzWindowEventArgs() { TabControl = Tabs, Type = DragablzWindowEventType.Closed });
+        }
+
+        private void MainWindow_OnActivated(object sender, EventArgs e)
+        {
+            eventAggregator.GetEvent<DragablzWindowEvent>().Publish(new DragablzWindowEventArgs() { TabControl = Tabs, Type = DragablzWindowEventType.Activated });
+        }
+
+        private void Window_Loaded(object sender, RoutedEventArgs e)
+        {
+            eventAggregator.GetEvent<DragablzWindowEvent>().Publish(new DragablzWindowEventArgs() { TabControl = Tabs, Type = DragablzWindowEventType.Opened });
         }
     }
 }

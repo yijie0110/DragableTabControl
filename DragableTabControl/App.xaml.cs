@@ -20,9 +20,9 @@ namespace DragableTabControl
 
         protected override void RegisterTypes(IContainerRegistry containerRegistry)
         {
-            containerRegistry.RegisterForNavigation<OneView, OneViewModel>();
-            containerRegistry.RegisterForNavigation<TwoView, TwoViewModel>();
-            containerRegistry.RegisterForNavigation<ThreeView, ThreeViewModel>();
+            containerRegistry.RegisterForNavigation<TestAView, TestAViewModel>();
+            containerRegistry.RegisterForNavigation<TestBView, TestBViewModel>();
+            containerRegistry.RegisterForNavigation<TestCView, TestCViewModel>();
 
             containerRegistry.Register<InterTabClient>();
         }
@@ -32,14 +32,8 @@ namespace DragableTabControl
             base.ConfigureRegionAdapterMappings(regionAdapterMappings);
 
             var regionBehaviorFactory = Container.Resolve<IRegionBehaviorFactory>();
-            regionAdapterMappings.RegisterMapping(typeof(TabablzControl), new TabRegionAdapter(regionBehaviorFactory, Container));
+            regionAdapterMappings.RegisterMapping(typeof(TabablzControl), new TabRegionAdapter(regionBehaviorFactory));
 
-
-            //var region = new SingleActiveRegion() { Name = PrismManager.MainViewRegionName };
-
-            //region.Behaviors.Add(DragablzWindowBehavior.BehaviorKey, new DragablzWindowBehavior(Container));
-
-            //Container.Resolve<RegionManager>().Regions.Add(PrismManager.MainViewRegionName, region);
         }
     }
 }

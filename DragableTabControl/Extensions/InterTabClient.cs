@@ -15,14 +15,21 @@ namespace DragableTabControl.Extensions
         }
         public INewTabHost<Window> GetNewHost(IInterTabClient interTabClient, object partition, TabablzControl source)
         {
-            var view = containerProvider.Resolve<MainView>();
+            var view = containerProvider.Resolve<HostView>();
 
             return new NewTabHost<Window>(view, view.Tabs);
         }
 
         public TabEmptiedResponse TabEmptiedHandler(TabablzControl tabControl, Window window)
         {
-            return TabEmptiedResponse.DoNothing;
+            if (window is MainView)
+            {
+                return TabEmptiedResponse.DoNothing;
+            }
+            else
+            {
+                return TabEmptiedResponse.CloseWindowOrLayoutBranch;
+            }
         }
     }
 }

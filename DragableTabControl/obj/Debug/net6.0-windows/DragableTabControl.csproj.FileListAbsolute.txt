@@ -1,8 +1,4 @@
-E:\Code\test\DragableTabControl\DragableTabControl\DragableTabControl\obj\Debug\net6.0-windows\DragableTabControl.csproj.AssemblyReference.cache
 E:\Code\test\DragableTabControl\DragableTabControl\DragableTabControl\obj\Debug\net6.0-windows\Views\MainView.g.cs
-E:\Code\test\DragableTabControl\DragableTabControl\DragableTabControl\obj\Debug\net6.0-windows\Views\OneView.g.cs
-E:\Code\test\DragableTabControl\DragableTabControl\DragableTabControl\obj\Debug\net6.0-windows\Views\ThreeView.g.cs
-E:\Code\test\DragableTabControl\DragableTabControl\DragableTabControl\obj\Debug\net6.0-windows\Views\TwoView.g.cs
 E:\Code\test\DragableTabControl\DragableTabControl\DragableTabControl\obj\Debug\net6.0-windows\App.g.cs
 E:\Code\test\DragableTabControl\DragableTabControl\DragableTabControl\obj\Debug\net6.0-windows\DragableTabControl_MarkupCompile.cache
 E:\Code\test\DragableTabControl\DragableTabControl\DragableTabControl\obj\Debug\net6.0-windows\DragableTabControl_MarkupCompile.lref
@@ -20,9 +16,6 @@ E:\Code\test\DragableTabControl\DragableTabControl\DragableTabControl\bin\Debug\
 E:\Code\test\DragableTabControl\DragableTabControl\DragableTabControl\bin\Debug\net6.0-windows\Prism.Wpf.dll
 E:\Code\test\DragableTabControl\DragableTabControl\DragableTabControl\obj\Debug\net6.0-windows\App.baml
 E:\Code\test\DragableTabControl\DragableTabControl\DragableTabControl\obj\Debug\net6.0-windows\Views\MainView.baml
-E:\Code\test\DragableTabControl\DragableTabControl\DragableTabControl\obj\Debug\net6.0-windows\Views\OneView.baml
-E:\Code\test\DragableTabControl\DragableTabControl\DragableTabControl\obj\Debug\net6.0-windows\Views\ThreeView.baml
-E:\Code\test\DragableTabControl\DragableTabControl\DragableTabControl\obj\Debug\net6.0-windows\Views\TwoView.baml
 E:\Code\test\DragableTabControl\DragableTabControl\DragableTabControl\obj\Debug\net6.0-windows\DragableTabControl.g.resources
 E:\Code\test\DragableTabControl\DragableTabControl\DragableTabControl\obj\Debug\net6.0-windows\DragableTabControl.GeneratedMSBuildEditorConfig.editorconfig
 E:\Code\test\DragableTabControl\DragableTabControl\DragableTabControl\obj\Debug\net6.0-windows\DragableTabControl.AssemblyInfoInputs.cache
@@ -36,3 +29,12 @@ E:\Code\test\DragableTabControl\DragableTabControl\DragableTabControl\obj\Debug\
 E:\Code\test\DragableTabControl\DragableTabControl\DragableTabControl\obj\Debug\net6.0-windows\Styles\TabablzControl.baml
 E:\Code\test\DragableTabControl\DragableTabControl\DragableTabControl\obj\Debug\net6.0-windows\GeneratedInternalTypeHelper.g.cs
 E:\Code\test\DragableTabControl\DragableTabControl\DragableTabControl\bin\Debug\net6.0-windows\ref\DragableTabControl.dll
+E:\Code\test\DragableTabControl\DragableTabControl\DragableTabControl\obj\Debug\net6.0-windows\DragableTabControl.csproj.AssemblyReference.cache
+E:\Code\test\DragableTabControl\DragableTabControl\DragableTabControl\obj\Debug\net6.0-windows\Views\HostView.g.cs
+E:\Code\test\DragableTabControl\DragableTabControl\DragableTabControl\obj\Debug\net6.0-windows\Views\TestAView.g.cs
+E:\Code\test\DragableTabControl\DragableTabControl\DragableTabControl\obj\Debug\net6.0-windows\Views\TestBView.g.cs
+E:\Code\test\DragableTabControl\DragableTabControl\DragableTabControl\obj\Debug\net6.0-windows\Views\TestCView.g.cs
+E:\Code\test\DragableTabControl\DragableTabControl\DragableTabControl\obj\Debug\net6.0-windows\Views\HostView.baml
+E:\Code\test\DragableTabControl\DragableTabControl\DragableTabControl\obj\Debug\net6.0-windows\Views\TestAView.baml
+E:\Code\test\DragableTabControl\DragableTabControl\DragableTabControl\obj\Debug\net6.0-windows\Views\TestBView.baml
+E:\Code\test\DragableTabControl\DragableTabControl\DragableTabControl\obj\Debug\net6.0-windows\Views\TestCView.baml

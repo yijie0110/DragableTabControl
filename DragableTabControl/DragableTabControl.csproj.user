@@ -7,13 +7,16 @@
     </ApplicationDefinition>
   </ItemGroup>
   <ItemGroup>
-    <Compile Update="Views\OneView.xaml.cs">
+    <Compile Update="Views\HostView.xaml.cs">
       <SubType>Code</SubType>
     </Compile>
-    <Compile Update="Views\ThreeView.xaml.cs">
+    <Compile Update="Views\TestAView.xaml.cs">
       <SubType>Code</SubType>
     </Compile>
-    <Compile Update="Views\TwoView.xaml.cs">
+    <Compile Update="Views\TestBView.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="Views\TestCView.xaml.cs">
       <SubType>Code</SubType>
     </Compile>
   </ItemGroup>
@@ -21,16 +24,19 @@
     <Page Update="Styles\TabablzControl.xaml">
       <SubType>Designer</SubType>
     </Page>
+    <Page Update="Views\HostView.xaml">
+      <SubType>Designer</SubType>
+    </Page>
     <Page Update="Views\MainView.xaml">
       <SubType>Designer</SubType>
     </Page>
-    <Page Update="Views\OneView.xaml">
+    <Page Update="Views\TestAView.xaml">
       <SubType>Designer</SubType>
     </Page>
-    <Page Update="Views\ThreeView.xaml">
+    <Page Update="Views\TestBView.xaml">
       <SubType>Designer</SubType>
     </Page>
-    <Page Update="Views\TwoView.xaml">
+    <Page Update="Views\TestCView.xaml">
       <SubType>Designer</SubType>
     </Page>
   </ItemGroup>

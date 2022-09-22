@@ -10,11 +10,11 @@ none
 false
 TRACE;DEBUG;NET;NET6_0;NETCOREAPP
 E:\Code\test\DragableTabControl\DragableTabControl\DragableTabControl\App.xaml
-5292989988
+6-104305203
 
-16816327527
-2011003803268
-Styles\TabablzControl.xaml;Views\MainView.xaml;Views\OneView.xaml;Views\ThreeView.xaml;Views\TwoView.xaml;
+22-886794933
+201552212321
+Styles\TabablzControl.xaml;Views\HostView.xaml;Views\MainView.xaml;Views\TestAView.xaml;Views\TestBView.xaml;Views\TestCView.xaml;
 
 True
 

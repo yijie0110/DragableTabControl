@@ -6,6 +6,14 @@
   "compilationOptions": {},
   "targets": {
     ".NETCoreApp,Version=v6.0": {
+      "Dragablz/0.0.3.234": {
+        "runtime": {
+          "lib/netcoreapp3.0/Dragablz.dll": {
+            "assemblyVersion": "0.0.3.234",
+            "fileVersion": "0.0.3.234"
+          }
+        }
+      },
       "DryIoc.dll/4.7.7": {
         "dependencies": {
           "System.Reflection.Emit.Lightweight": "4.3.0"
@@ -22,14 +30,6 @@
           "lib/net5.0/HandyControl.dll": {
             "assemblyVersion": "3.3.0.0",
             "fileVersion": "3.3.0.0"
-          }
-        }
-      },
-      "HIT.Dragablz/2.0.2": {
-        "runtime": {
-          "lib/netcoreapp3.1/Dragablz.dll": {
-            "assemblyVersion": "2.0.2.0",
-            "fileVersion": "2.0.2.0"
           }
         }
       },
@@ -150,6 +150,13 @@
     }
   },
   "libraries": {
+    "Dragablz/0.0.3.234": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-soq8laPTrPWSA3vC3fnfU/gye2VejTbRXTuXzmVoHIySHWe5MhSIqR9KvFRmwk8xglsjVnnaa+su/10cFieuTw==",
+      "path": "dragablz/0.0.3.234",
+      "hashPath": "dragablz.0.0.3.234.nupkg.sha512"
+    },
     "DryIoc.dll/4.7.7": {
       "type": "package",
       "serviceable": true,
@@ -163,13 +170,6 @@
       "sha512": "sha512-LY38yByPYXOP2kfQkneedgSE+Ps6XWsXId9hBoEgvef4/mdToqWNSueA6kg1u/nKCV1E8zdpI+ZvevDnlyF10Q==",
       "path": "handycontrol/3.3.0",
       "hashPath": "handycontrol.3.3.0.nupkg.sha512"
-    },
-    "HIT.Dragablz/2.0.2": {
-      "type": "package",
-      "serviceable": true,
-      "sha512": "sha512-MbjqCI0kY1U8zFiHOgixK1RDBKbcrWqBZuNEkPsA17rGkSasvfBs/So8xLOX9PRLypRHnDZyDEic4+2gAoWZPw==",
-      "path": "hit.dragablz/2.0.2",
-      "hashPath": "hit.dragablz.2.0.2.nupkg.sha512"
     },
     "Microsoft.NETCore.Platforms/1.1.0": {
       "type": "package",

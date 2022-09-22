@@ -1,12 +1,12 @@
 {
   "version": 2,
-  "dgSpecHash": "QKbNzc0lywRhkwZAWRBK+RTj0V8h4NCh8svVRHpEIoCGGStC4v8wUrgvKHtybRtAgU+Azwd8C4QuihellzRSWg==",
+  "dgSpecHash": "wyD3NlAn8C2sabHu2na2bQDjQPRhiCQ+AQvHIs3wNq15gbdWe2V7YmOB8pdAA5xJzhaxe/V5annVKU8WUA34Xg==",
   "success": true,
   "projectFilePath": "E:\\Code\\test\\DragableTabControl\\DragableTabControl\\DragableTabControl\\DragableTabControl.csproj",
   "expectedPackageFiles": [
+    "C:\\Users\\xuyij\\.nuget\\packages\\dragablz\\0.0.3.234\\dragablz.0.0.3.234.nupkg.sha512",
     "C:\\Users\\xuyij\\.nuget\\packages\\dryioc.dll\\4.7.7\\dryioc.dll.4.7.7.nupkg.sha512",
     "C:\\Users\\xuyij\\.nuget\\packages\\handycontrol\\3.3.0\\handycontrol.3.3.0.nupkg.sha512",
-    "C:\\Users\\xuyij\\.nuget\\packages\\hit.dragablz\\2.0.2\\hit.dragablz.2.0.2.nupkg.sha512",
     "C:\\Users\\xuyij\\.nuget\\packages\\microsoft.netcore.platforms\\1.1.0\\microsoft.netcore.platforms.1.1.0.nupkg.sha512",
     "C:\\Users\\xuyij\\.nuget\\packages\\microsoft.netcore.targets\\1.1.0\\microsoft.netcore.targets.1.1.0.nupkg.sha512",
     "C:\\Users\\xuyij\\.nuget\\packages\\microsoft.xaml.behaviors.wpf\\1.1.31\\microsoft.xaml.behaviors.wpf.1.1.31.nupkg.sha512",
