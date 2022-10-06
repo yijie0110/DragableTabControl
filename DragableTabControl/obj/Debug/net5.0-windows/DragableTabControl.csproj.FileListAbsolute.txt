@@ -3,7 +3,6 @@ E:\Code\test\DragableTabControl\DragableTabControl\DragableTabControl\bin\Debug\
 E:\Code\test\DragableTabControl\DragableTabControl\DragableTabControl\bin\Debug\net5.0-windows\DragableTabControl.runtimeconfig.json
 E:\Code\test\DragableTabControl\DragableTabControl\DragableTabControl\bin\Debug\net5.0-windows\DragableTabControl.runtimeconfig.dev.json
 E:\Code\test\DragableTabControl\DragableTabControl\DragableTabControl\bin\Debug\net5.0-windows\DragableTabControl.dll
-E:\Code\test\DragableTabControl\DragableTabControl\DragableTabControl\bin\Debug\net5.0-windows\ref\DragableTabControl.dll
 E:\Code\test\DragableTabControl\DragableTabControl\DragableTabControl\bin\Debug\net5.0-windows\DragableTabControl.pdb
 E:\Code\test\DragableTabControl\DragableTabControl\DragableTabControl\bin\Debug\net5.0-windows\Dragablz.dll
 E:\Code\test\DragableTabControl\DragableTabControl\DragableTabControl\bin\Debug\net5.0-windows\DryIoc.dll
@@ -39,3 +38,4 @@ E:\Code\test\DragableTabControl\DragableTabControl\DragableTabControl\obj\Debug\
 E:\Code\test\DragableTabControl\DragableTabControl\DragableTabControl\obj\Debug\net5.0-windows\ref\DragableTabControl.dll
 E:\Code\test\DragableTabControl\DragableTabControl\DragableTabControl\obj\Debug\net5.0-windows\DragableTabControl.pdb
 E:\Code\test\DragableTabControl\DragableTabControl\DragableTabControl\obj\Debug\net5.0-windows\DragableTabControl.genruntimeconfig.cache
+E:\Code\test\DragableTabControl\DragableTabControl\DragableTabControl\obj\Debug\net5.0-windows\refint\DragableTabControl.dll
