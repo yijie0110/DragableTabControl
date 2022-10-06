@@ -11,7 +11,7 @@ and [DragablzPrism](https://github.com/svantreeck/DragablzPrism), i updated thei
 
 ### Screenshots
 
-![image-20221006172158860](E:\Code\test\DragableTabControl\DragableTabControl\README.assets\image-20221006172158860.png)
+![image-20221006172158860](https://github.com/yijie0110/DragableTabControl/blob/master/README.assets/image-20221006172158860.png)
 
 
 
