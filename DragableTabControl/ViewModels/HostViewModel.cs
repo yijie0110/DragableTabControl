@@ -11,6 +11,12 @@ namespace DragableTabControl.ViewModels
 {
     internal class HostViewModel : BindableBase
     {
+        private string _title = "Host View";
+        public string Title
+        {
+            get { return _title; }
+            set { SetProperty(ref _title, value); }
+        }
         private InterTabClient interTabClient;
         private readonly IContainerProvider containerProvider;
 

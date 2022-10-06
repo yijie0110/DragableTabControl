@@ -114,7 +114,7 @@ namespace DragableTabControl.Extensions
             this.Region.Remove(((TabClientProxy)args.DragablzItem.DataContext).Content);
         }
 
-        private void ActiveViews_CollectionChanged(object sender, System.Collections.Specialized.NotifyCollectionChangedEventArgs e)
+        private void ActiveViews_CollectionChanged(object sender, NotifyCollectionChangedEventArgs e)
         {
             switch (e.Action)
             {
@@ -125,7 +125,7 @@ namespace DragableTabControl.Extensions
             }
         }
 
-        private void Views_CollectionChanged(object sender, System.Collections.Specialized.NotifyCollectionChangedEventArgs e)
+        private void Views_CollectionChanged(object sender, NotifyCollectionChangedEventArgs e)
         {
             switch (e.Action)
             {

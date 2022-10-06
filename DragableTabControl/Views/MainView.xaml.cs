@@ -20,19 +20,19 @@ namespace DragableTabControl.Views
             this.eventAggregator = eventAggregator;
         }
 
-        private void MainWindow_OnClosed(object sender, EventArgs e)
+        private void Window_Loaded(object sender, RoutedEventArgs e)
         {
-            eventAggregator.GetEvent<DragablzWindowEvent>().Publish(new DragablzWindowEventArgs() { TabControl = Tabs, Type = DragablzWindowEventType.Closed });
+            eventAggregator.GetEvent<DragablzWindowEvent>().Publish(new DragablzWindowEventArgs() { TabControl = Tabs, Type = DragablzWindowEventType.Opened });
         }
 
-        private void MainWindow_OnActivated(object sender, EventArgs e)
+        private void Window_Activated(object sender, EventArgs e)
         {
             eventAggregator.GetEvent<DragablzWindowEvent>().Publish(new DragablzWindowEventArgs() { TabControl = Tabs, Type = DragablzWindowEventType.Activated });
         }
 
-        private void Window_Loaded(object sender, RoutedEventArgs e)
+        private void Window_Closed(object sender, EventArgs e)
         {
-            eventAggregator.GetEvent<DragablzWindowEvent>().Publish(new DragablzWindowEventArgs() { TabControl = Tabs, Type = DragablzWindowEventType.Opened });
+            eventAggregator.GetEvent<DragablzWindowEvent>().Publish(new DragablzWindowEventArgs() { TabControl = Tabs, Type = DragablzWindowEventType.Closed });
         }
     }
 }
