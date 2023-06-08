@@ -3,7 +3,7 @@ A WPF sample of Dragable TabControl whit framework Prism and UI framework HandyC
 
 ### Description 
 
-thi is a training project, in base framework Prism, HandyControl and Dragable. I referenced [EdgeDragablz](https://github.com/codingdna2/EdgeDragablz)
+this is a training project, in base framework Prism, HandyControl and Dragable. I referenced [EdgeDragablz](https://github.com/codingdna2/EdgeDragablz)
 
 and [DragablzPrism](https://github.com/svantreeck/DragablzPrism), i updated their Framework referenced and fix some bug.
 
